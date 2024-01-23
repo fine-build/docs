@@ -30,6 +30,6 @@ jobs:
         with:
           args: --acl public-read --follow-symlinks --delete
         env:
-          AWS_S3_BUCKET: docs-steedos-com
+          AWS_S3_BUCKET: finebuild-docs
           AWS_S3_REGION: cn-northwest-1
           SOURCE_DIR: ./build/
