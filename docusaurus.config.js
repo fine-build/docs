@@ -101,7 +101,7 @@ const config = {
       //   isCloseable: true,
       // },
       navbar: {
-        title: 'FindBuild Docs',
+        title: 'FineBuild',
         // logo: {
         //   alt: 'FindBuild',
         //   src: 'img/logo.png',

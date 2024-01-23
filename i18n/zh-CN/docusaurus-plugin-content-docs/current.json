@@ -234,5 +234,53 @@
   "sidebar.apps.category.协作工具": {
     "message": "协作工具",
     "description": "The label for category 协作工具 in sidebar apps"
+  },
+  "sidebar.platform.category.教程": {
+    "message": "教程",
+    "description": "The label for category 教程 in sidebar platform"
+  },
+  "sidebar.platform.category.入门教程": {
+    "message": "入门教程",
+    "description": "The label for category 入门教程 in sidebar platform"
+  },
+  "sidebar.platform.category.用户向导": {
+    "message": "用户向导",
+    "description": "The label for category 用户向导 in sidebar platform"
+  },
+  "sidebar.platform.category.构建应用程序": {
+    "message": "构建应用程序",
+    "description": "The label for category 构建应用程序 in sidebar platform"
+  },
+  "sidebar.platform.category.数据模型和管理": {
+    "message": "数据模型和管理",
+    "description": "The label for category 数据模型和管理 in sidebar platform"
+  },
+  "sidebar.platform.category.字段类型": {
+    "message": "字段类型",
+    "description": "The label for category 字段类型 in sidebar platform"
+  },
+  "sidebar.platform.category.使用公式计算字段值": {
+    "message": "使用公式计算字段值",
+    "description": "The label for category 使用公式计算字段值 in sidebar platform"
+  },
+  "sidebar.developer.category.Moleculer 微服务框架": {
+    "message": "Moleculer 微服务框架",
+    "description": "The label for category Moleculer 微服务框架 in sidebar developer"
+  },
+  "sidebar.developer.category.平台微服务": {
+    "message": "平台微服务",
+    "description": "The label for category 平台微服务 in sidebar developer"
+  },
+  "sidebar.developer.category.AMIS 前端低代码框架": {
+    "message": "AMIS 前端低代码框架",
+    "description": "The label for category AMIS 前端低代码框架 in sidebar developer"
+  },
+  "sidebar.developer.category.插件": {
+    "message": "插件",
+    "description": "The label for category 插件 in sidebar developer"
+  },
+  "sidebar.developer.category.系统集成": {
+    "message": "系统集成",
+    "description": "The label for category 系统集成 in sidebar developer"
   }
 }
