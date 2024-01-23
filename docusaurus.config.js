@@ -14,7 +14,7 @@ const config = {
   url: process.env.SITE_URL || 'https://fine-build.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/docs',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -53,8 +53,8 @@ const config = {
           // },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/fine-build/docs/tree/master/',
-          editLocalizedFiles: true
+          // editUrl: 'https://github.com/fine-build/docs/tree/master/',
+          // editLocalizedFiles: true
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
