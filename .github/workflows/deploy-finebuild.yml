@@ -15,6 +15,10 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
+      - name: Replace 'Steedos' with 'FindBuild' in docs & i18n Folder
+        run: |
+          find docs i18n -type f \( -name "*.md" -o -name "*.mdx" -o -name "*.json" -o -name "*.yml" \) -exec sed -i 's/Steedos/FineBuild/g' {} +
+
       - name: Build Docusaurus site
         run: yarn build
 

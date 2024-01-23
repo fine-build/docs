@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: process.env.SITE_TITLE || 'FindBuild Docs',
+  title: process.env.SITE_TITLE || 'FineBuild Docs',
   tagline: 'Open source alterative to Salesforce Platform.',
-  favicon: 'img/favicon.png',
+  favicon: 'img/finebuild.png',
 
   // Set the production url of your site here
   url: process.env.SITE_URL || 'https://fine-build.github.io/',
@@ -33,10 +33,10 @@ const config = {
     locales: ['en', 'zh-CN'],
   },
 
-  scripts: [
-    // String format.
-    '/js/salesiq.js',
-  ],
+  // scripts: [
+  //   // String format.
+  //   '/js/salesiq.js',
+  // ],
   presets: [
     [
       'classic',
@@ -101,11 +101,11 @@ const config = {
       //   isCloseable: true,
       // },
       navbar: {
-        title: '',
-        logo: {
-          alt: 'FindBuild',
-          src: 'img/logo.png',
-        },
+        title: 'FindBuild Docs',
+        // logo: {
+        //   alt: 'FindBuild',
+        //   src: 'img/logo.png',
+        // },
         items: [
           {
             type: 'docSidebar',
