@@ -6,20 +6,20 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: process.env.SITE_TITLE || 'Steedos Docs',
+  title: process.env.SITE_TITLE || 'FindBuild Docs',
   tagline: 'Open source alterative to Salesforce Platform.',
   favicon: 'img/favicon.png',
 
   // Set the production url of your site here
-  url: process.env.SITE_URL || 'https://docs.steedos.com/',
+  url: process.env.SITE_URL || 'https://fine-build.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/docs',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'steedos', // Usually your GitHub org/user name.
-  projectName: 'steedos.github.io', // Usually your repo name.
+  organizationName: 'fine-build', // Usually your GitHub org/user name.
+  projectName: 'fine-build.github.io', // Usually your repo name.
   // trailingSlash: true,
 
   onBrokenLinks: 'warn',
@@ -53,7 +53,7 @@ const config = {
           // },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/steedos/steedos-docs/tree/master/',
+          editUrl: 'https://github.com/fine-build/docs/tree/master/',
           editLocalizedFiles: true
         },
         theme: {
@@ -92,18 +92,18 @@ const config = {
         disableSwitch: true,
         respectPrefersColorScheme: false,
       },
-      announcementBar: {
-        id: 'support_us',
-        content:
-          '⭐️ If you like Steedos, give a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/steedos/steedos-platform">GitHub</a>.',
-        backgroundColor: '#4D72DA',
-        textColor: '#ffffff',
-        isCloseable: true,
-      },
+      // announcementBar: {
+      //   id: 'support_us',
+      //   content:
+      //     '⭐️ If you like Steedos, give a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/steedos/steedos-platform">GitHub</a>.',
+      //   backgroundColor: '#4D72DA',
+      //   textColor: '#ffffff',
+      //   isCloseable: true,
+      // },
       navbar: {
         title: '',
         logo: {
-          alt: 'Steedos',
+          alt: 'FindBuild',
           src: 'img/logo.png',
         },
         items: [
@@ -113,12 +113,12 @@ const config = {
             sidebarId: 'platform',
             label: 'Platform',
           },
-          {
-            type: 'docSidebar',
-            position: 'left',
-            sidebarId: 'apps',
-            label: 'Apps',
-          },
+          // {
+          //   type: 'docSidebar',
+          //   position: 'left',
+          //   sidebarId: 'apps',
+          //   label: 'Apps',
+          // },
           {
             type: 'docSidebar',
             position: 'left',
@@ -137,12 +137,12 @@ const config = {
             type: 'localeDropdown',
             position: 'right',
           },
-          {
-            href: 'https://github.com/steedos/steedos-platform',
-            position: 'right',
-            className: 'navbar-social-link navbar-github-logo',
-            'aria-label': 'GitHub repository',
-          },
+          // {
+          //   href: 'https://github.com/steedos/steedos-platform',
+          //   position: 'right',
+          //   className: 'navbar-social-link navbar-github-logo',
+          //   'aria-label': 'GitHub repository',
+          // },
         ],
       },
       docs: {
@@ -201,7 +201,7 @@ const config = {
         //     ],
         //   },
         // ],
-        copyright: `Copyright © ${new Date().getFullYear()} Steedos Inc.`,
+        copyright: `Copyright © ${new Date().getFullYear()} FindBuild Inc.`,
       },
       prism: {
         theme: darkCodeTheme,

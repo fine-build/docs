@@ -18,14 +18,12 @@ jobs:
       - name: Build Docusaurus site
         run: yarn build
         env:
-          SITE_URL: https://www.steedos.org
-          SITE_TITLE: Steedos
+          SITE_URL: https://find-build.github.io/
+          SITE_TITLE: FineBuild
 
       - name: Deploy to steedos.github.io
         uses: peaceiris/actions-gh-pages@v3
         with:
-          deploy_key: ${{ secrets.GIT_DEPLOY_KEY }}
-          external_repository: steedos/steedos.github.io
-          publish_branch: gh-pages  # default: gh-pages
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
         
