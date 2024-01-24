@@ -20,8 +20,10 @@ jobs:
           find docs i18n -type f \( -name "*.md" -o -name "*.mdx" -o -name "*.json" -o -name "*.yml" \) -exec sed -i 's/Steedos/FineBuild/g' {} +
           rm -rf docs/getting-started/user
           rm -rf docs/deploy
+          rm -rf docs/deploy.md
           rm -rf i18n/zh-CN/docusaurus-plugin-content-docs/current/getting-started/user
           rm -rf i18n/zh-CN/docusaurus-plugin-content-docs/current/deploy
+          rm -rf i18n/zh-CN/docusaurus-plugin-content-docs/current/deploy.md
 
       - name: Build Docusaurus site
         run: yarn build
